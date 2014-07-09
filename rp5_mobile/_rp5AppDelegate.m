@@ -44,13 +44,3 @@
 }
 
 @end
-
-@implementation rp5
-
-- (void) Show
-{
-  
-}
-
-@end
-

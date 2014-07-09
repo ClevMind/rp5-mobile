@@ -10,8 +10,8 @@
 #import <Foundation/Foundation.h> //для NSObject и строк NSString
 
 @interface _rp5ViewController : UIViewController<UITextFieldDelegate>
-- (IBAction)selectTown:(id)sender;
-@property (weak, nonatomic) IBOutlet UITextField *town;
-@property (weak, nonatomic) IBOutlet UILabel *user_town;
-@property (copy, nonatomic) NSString *userName;
+@property (weak, nonatomic) IBOutlet UILabel *town_name;
+@property (weak, nonatomic) IBOutlet UILabel *temp;
+- (void)viewDidLoad;
+- (void)fetchedData:(NSData *)responseData;
 @end

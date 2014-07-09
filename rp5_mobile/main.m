@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 #import "_rp5AppDelegate.h"
+//#import "_rp5ViewController.h"
 
 
 int main(int argc, char * argv[])
@@ -16,4 +17,6 @@ int main(int argc, char * argv[])
     @autoreleasepool {
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([_rp5AppDelegate class]));
     }
+    //_rp5ViewController *My = [[_rp5ViewController alloc] init];
+    //[My Info];
 }

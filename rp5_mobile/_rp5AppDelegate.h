@@ -7,20 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <Foundation/Foundation.h>
 
 @interface _rp5AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@end
-
-@interface rp5 : NSObject
-{
-    float     x, y;
-    float     width;
-    float     height;
-    BOOL      isFilled;
-}
-- (void) Show;
 @end
