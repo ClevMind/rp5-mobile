@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		723E414C19AF0B68004EAF93 /* comp.png in Resources */ = {isa = PBXBuildFile; fileRef = 723E414819AF0B68004EAF93 /* comp.png */; };
+		723E414D19AF0B68004EAF93 /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = 723E414919AF0B68004EAF93 /* list.png */; };
+		723E414E19AF0B68004EAF93 /* loupe.png in Resources */ = {isa = PBXBuildFile; fileRef = 723E414A19AF0B68004EAF93 /* loupe.png */; };
+		723E414F19AF0B68004EAF93 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 723E414B19AF0B68004EAF93 /* settings.png */; };
+		72467E3E19ACAAE40045A710 /* _rp5_network.m in Sources */ = {isa = PBXBuildFile; fileRef = 72467E3D19ACAAE40045A710 /* _rp5_network.m */; };
+		72467E4119ACB4E00045A710 /* _rp5_alert.m in Sources */ = {isa = PBXBuildFile; fileRef = 72467E4019ACB4E00045A710 /* _rp5_alert.m */; };
+		72678F7019C2F91000914F26 /* _rp5StartController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72678F6F19C2F91000914F26 /* _rp5StartController.m */; };
+		72678F7319C3021100914F26 /* _rp5DynamicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72678F7219C3021100914F26 /* _rp5DynamicViewController.m */; };
 		7277E9521963E28C0040A159 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7277E9511963E28C0040A159 /* Foundation.framework */; };
 		7277E9541963E28C0040A159 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7277E9531963E28C0040A159 /* CoreGraphics.framework */; };
 		7277E9561963E28C0040A159 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7277E9551963E28C0040A159 /* UIKit.framework */; };
@@ -22,6 +30,17 @@
 		7277E9761963E28C0040A159 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7277E9551963E28C0040A159 /* UIKit.framework */; };
 		7277E97E1963E28C0040A159 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7277E97C1963E28C0040A159 /* InfoPlist.strings */; };
 		7277E9801963E28C0040A159 /* rp5_mobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7277E97F1963E28C0040A159 /* rp5_mobileTests.m */; };
+		727F1EA019A7210500132768 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 727F1E9E19A7210500132768 /* MainStoryboard_iPad.storyboard */; };
+		729C970B19C0646C0072084F /* _rp5SettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 729C970A19C0646C0072084F /* _rp5SettingsController.m */; };
+		72A5FE0319B487BC0008472C /* _rp5_db.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A5FE0219B487BC0008472C /* _rp5_db.m */; };
+		72A5FE0619B49FF60008472C /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A5FE0419B49FF60008472C /* libsqlite3.0.dylib */; };
+		72A78F0719CAB7BA002CB86D /* _rp5_json.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A78F0619CAB7BA002CB86D /* _rp5_json.m */; };
+		72A78F0A19CAB895002CB86D /* _rp5_forecast.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A78F0919CAB895002CB86D /* _rp5_forecast.m */; };
+		72A78F0C19CB004A002CB86D /* _rp5_json in Resources */ = {isa = PBXBuildFile; fileRef = 72A78F0B19CB004A002CB86D /* _rp5_json */; };
+		72B0643D19ADFBE500BDC587 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B0642C19ADFBE500BDC587 /* Reachability.m */; };
+		72EC824C19A722210091CA93 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72EC824619A722210091CA93 /* Main_iPad.storyboard */; };
+		72EC824D19A722210091CA93 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72EC824819A722210091CA93 /* Main_iPhone.storyboard */; };
+		72EC824E19A722210091CA93 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72EC824A19A722210091CA93 /* MainStoryboard_iPad.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +54,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		723E414819AF0B68004EAF93 /* comp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = comp.png; sourceTree = "<group>"; };
+		723E414919AF0B68004EAF93 /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list.png; sourceTree = "<group>"; };
+		723E414A19AF0B68004EAF93 /* loupe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loupe.png; sourceTree = "<group>"; };
+		723E414B19AF0B68004EAF93 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		72467E3C19ACAAE40045A710 /* _rp5_network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _rp5_network.h; sourceTree = "<group>"; };
+		72467E3D19ACAAE40045A710 /* _rp5_network.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _rp5_network.m; sourceTree = "<group>"; };
+		72467E3F19ACB4E00045A710 /* _rp5_alert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _rp5_alert.h; sourceTree = "<group>"; };
+		72467E4019ACB4E00045A710 /* _rp5_alert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _rp5_alert.m; sourceTree = "<group>"; };
+		72678F6E19C2F91000914F26 /* _rp5StartController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _rp5StartController.h; sourceTree = "<group>"; };
+		72678F6F19C2F91000914F26 /* _rp5StartController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _rp5StartController.m; sourceTree = "<group>"; };
+		72678F7119C3021100914F26 /* _rp5DynamicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _rp5DynamicViewController.h; sourceTree = "<group>"; };
+		72678F7219C3021100914F26 /* _rp5DynamicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _rp5DynamicViewController.m; sourceTree = "<group>"; };
 		7277E94E1963E28C0040A159 /* rp5_mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rp5_mobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7277E9511963E28C0040A159 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7277E9531963E28C0040A159 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +86,25 @@
 		7277E97B1963E28C0040A159 /* rp5_mobileTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "rp5_mobileTests-Info.plist"; sourceTree = "<group>"; };
 		7277E97D1963E28C0040A159 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7277E97F1963E28C0040A159 /* rp5_mobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rp5_mobileTests.m; sourceTree = "<group>"; };
+		727F1E9F19A7210500132768 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		729C970919C0646C0072084F /* _rp5SettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _rp5SettingsController.h; sourceTree = "<group>"; };
+		729C970A19C0646C0072084F /* _rp5SettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _rp5SettingsController.m; sourceTree = "<group>"; };
+		72A5FE0119B487BC0008472C /* _rp5_db.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _rp5_db.h; sourceTree = "<group>"; };
+		72A5FE0219B487BC0008472C /* _rp5_db.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _rp5_db.m; sourceTree = "<group>"; };
+		72A5FE0419B49FF60008472C /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		72A5FE0519B49FF60008472C /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		72A78F0519CAB7BA002CB86D /* _rp5_json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _rp5_json.h; sourceTree = "<group>"; };
+		72A78F0619CAB7BA002CB86D /* _rp5_json.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _rp5_json.m; sourceTree = "<group>"; };
+		72A78F0819CAB895002CB86D /* _rp5_forecast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _rp5_forecast.h; sourceTree = "<group>"; };
+		72A78F0919CAB895002CB86D /* _rp5_forecast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _rp5_forecast.m; sourceTree = "<group>"; };
+		72A78F0B19CB004A002CB86D /* _rp5_json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _rp5_json; sourceTree = "<group>"; };
+		72B0640619ADEA4500BDC587 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		72B0642B19ADFBE500BDC587 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		72B0642C19ADFBE500BDC587 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		72C1D40A197FC46A002DBF9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main_iPhone.strings; sourceTree = "<group>"; };
+		72EC824719A722210091CA93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main_iPad.storyboard; sourceTree = "<group>"; };
+		72EC824919A722210091CA93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
+		72EC824B19A722210091CA93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72A5FE0619B49FF60008472C /* libsqlite3.0.dylib in Frameworks */,
 				7277E9541963E28C0040A159 /* CoreGraphics.framework in Frameworks */,
 				7277E9561963E28C0040A159 /* UIKit.framework in Frameworks */,
 				7277E9521963E28C0040A159 /* Foundation.framework in Frameworks */,
@@ -81,6 +132,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		723E414719AF0B68004EAF93 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				723E414819AF0B68004EAF93 /* comp.png */,
+				723E414919AF0B68004EAF93 /* list.png */,
+				723E414A19AF0B68004EAF93 /* loupe.png */,
+				723E414B19AF0B68004EAF93 /* settings.png */,
+			);
+			name = icons;
+			path = ../../../Downloads/rp5/icons;
+			sourceTree = "<group>";
+		};
+		72467E3819ACA3F60045A710 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				72467E3C19ACAAE40045A710 /* _rp5_network.h */,
+				72467E3D19ACAAE40045A710 /* _rp5_network.m */,
+				72467E3F19ACB4E00045A710 /* _rp5_alert.h */,
+				72467E4019ACB4E00045A710 /* _rp5_alert.m */,
+				72A5FE0119B487BC0008472C /* _rp5_db.h */,
+				72A5FE0219B487BC0008472C /* _rp5_db.m */,
+				72A78F0519CAB7BA002CB86D /* _rp5_json.h */,
+				72A78F0619CAB7BA002CB86D /* _rp5_json.m */,
+				72A78F0B19CB004A002CB86D /* _rp5_json */,
+				72A78F0819CAB895002CB86D /* _rp5_forecast.h */,
+				72A78F0919CAB895002CB86D /* _rp5_forecast.m */,
+			);
+			name = class;
+			sourceTree = "<group>";
+		};
 		7277E9451963E28C0040A159 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +184,9 @@
 		7277E9501963E28C0040A159 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				72A5FE0419B49FF60008472C /* libsqlite3.0.dylib */,
+				72A5FE0519B49FF60008472C /* libsqlite3.dylib */,
+				72B0640619ADEA4500BDC587 /* SystemConfiguration.framework */,
 				7277E9511963E28C0040A159 /* Foundation.framework */,
 				7277E9531963E28C0040A159 /* CoreGraphics.framework */,
 				7277E9551963E28C0040A159 /* UIKit.framework */,
@@ -114,12 +198,16 @@
 		7277E9571963E28C0040A159 /* rp5_mobile */ = {
 			isa = PBXGroup;
 			children = (
+				729C970519C05F2F0072084F /* Controllers */,
+				723E414719AF0B68004EAF93 /* icons */,
+				72B0640819ADFBE400BDC587 /* Reachability-master */,
+				72467E3819ACA3F60045A710 /* class */,
+				72EC824519A722210091CA93 /* Base.lproj */,
 				7277E9601963E28C0040A159 /* _rp5AppDelegate.h */,
 				7277E9611963E28C0040A159 /* _rp5AppDelegate.m */,
 				7277E9631963E28C0040A159 /* Main_iPhone.storyboard */,
 				7277E9661963E28C0040A159 /* Main_iPad.storyboard */,
-				7277E9691963E28C0040A159 /* _rp5ViewController.h */,
-				7277E96A1963E28C0040A159 /* _rp5ViewController.m */,
+				727F1E9E19A7210500132768 /* MainStoryboard_iPad.storyboard */,
 				7277E96C1963E28C0040A159 /* Images.xcassets */,
 				7277E9581963E28C0040A159 /* Supporting Files */,
 			);
@@ -153,6 +241,41 @@
 				7277E97C1963E28C0040A159 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		729C970519C05F2F0072084F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7277E9691963E28C0040A159 /* _rp5ViewController.h */,
+				7277E96A1963E28C0040A159 /* _rp5ViewController.m */,
+				729C970919C0646C0072084F /* _rp5SettingsController.h */,
+				729C970A19C0646C0072084F /* _rp5SettingsController.m */,
+				72678F6E19C2F91000914F26 /* _rp5StartController.h */,
+				72678F6F19C2F91000914F26 /* _rp5StartController.m */,
+				72678F7119C3021100914F26 /* _rp5DynamicViewController.h */,
+				72678F7219C3021100914F26 /* _rp5DynamicViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		72B0640819ADFBE400BDC587 /* Reachability-master */ = {
+			isa = PBXGroup;
+			children = (
+				72B0642B19ADFBE500BDC587 /* Reachability.h */,
+				72B0642C19ADFBE500BDC587 /* Reachability.m */,
+			);
+			name = "Reachability-master";
+			path = "../../../Downloads/Reachability-master";
+			sourceTree = "<group>";
+		};
+		72EC824519A722210091CA93 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				72EC824619A722210091CA93 /* Main_iPad.storyboard */,
+				72EC824819A722210091CA93 /* Main_iPhone.storyboard */,
+				72EC824A19A722210091CA93 /* MainStoryboard_iPad.storyboard */,
+			);
+			path = Base.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +326,14 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = rp5;
 				TargetAttributes = {
+					7277E94D1963E28C0040A159 = {
+						DevelopmentTeam = L78D2NFE35;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
 					7277E9711963E28C0040A159 = {
 						TestTargetID = 7277E94D1963E28C0040A159;
 					};
@@ -232,10 +363,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				723E414F19AF0B68004EAF93 /* settings.png in Resources */,
+				723E414E19AF0B68004EAF93 /* loupe.png in Resources */,
+				72EC824E19A722210091CA93 /* MainStoryboard_iPad.storyboard in Resources */,
+				723E414D19AF0B68004EAF93 /* list.png in Resources */,
+				72A78F0C19CB004A002CB86D /* _rp5_json in Resources */,
 				7277E9681963E28C0040A159 /* Main_iPad.storyboard in Resources */,
+				723E414C19AF0B68004EAF93 /* comp.png in Resources */,
 				7277E96D1963E28C0040A159 /* Images.xcassets in Resources */,
 				7277E9651963E28C0040A159 /* Main_iPhone.storyboard in Resources */,
+				72EC824C19A722210091CA93 /* Main_iPad.storyboard in Resources */,
 				7277E95C1963E28C0040A159 /* InfoPlist.strings in Resources */,
+				72EC824D19A722210091CA93 /* Main_iPhone.storyboard in Resources */,
+				727F1EA019A7210500132768 /* MainStoryboard_iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,9 +394,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72678F7319C3021100914F26 /* _rp5DynamicViewController.m in Sources */,
 				7277E9621963E28C0040A159 /* _rp5AppDelegate.m in Sources */,
+				72678F7019C2F91000914F26 /* _rp5StartController.m in Sources */,
 				7277E96B1963E28C0040A159 /* _rp5ViewController.m in Sources */,
+				72A5FE0319B487BC0008472C /* _rp5_db.m in Sources */,
+				72A78F0719CAB7BA002CB86D /* _rp5_json.m in Sources */,
+				72B0643D19ADFBE500BDC587 /* Reachability.m in Sources */,
 				7277E95E1963E28C0040A159 /* main.m in Sources */,
+				72467E4119ACB4E00045A710 /* _rp5_alert.m in Sources */,
+				729C970B19C0646C0072084F /* _rp5SettingsController.m in Sources */,
+				72A78F0A19CAB895002CB86D /* _rp5_forecast.m in Sources */,
+				72467E3E19ACAAE40045A710 /* _rp5_network.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +440,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				7277E9641963E28C0040A159 /* Base */,
+				72C1D40A197FC46A002DBF9E /* en */,
 			);
 			name = Main_iPhone.storyboard;
 			sourceTree = "<group>";
@@ -309,6 +459,38 @@
 				7277E97D1963E28C0040A159 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		727F1E9E19A7210500132768 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				727F1E9F19A7210500132768 /* Base */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		72EC824619A722210091CA93 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72EC824719A722210091CA93 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		72EC824819A722210091CA93 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72EC824919A722210091CA93 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		72EC824A19A722210091CA93 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72EC824B19A722210091CA93 /* Base */,
+			);
+			name = MainStoryboard_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -391,10 +573,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_OBJC_RETAIN_COUNT = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ilya Faist (VDW36GP3HJ)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "rp5_mobile/rp5_mobile-Prefix.pch";
 				INFOPLIST_FILE = "rp5_mobile/rp5_mobile-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -404,10 +591,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_OBJC_RETAIN_COUNT = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ilya Faist (VDW36GP3HJ)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "rp5_mobile/rp5_mobile-Prefix.pch";
 				INFOPLIST_FILE = "rp5_mobile/rp5_mobile-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -471,6 +663,7 @@
 				7277E9851963E28C0040A159 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7277E9861963E28C0040A159 /* Build configuration list for PBXNativeTarget "rp5_mobileTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +672,7 @@
 				7277E9881963E28C0040A159 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

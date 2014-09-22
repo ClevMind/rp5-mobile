@@ -1,4 +1,6 @@
 //
+
+//
 //  main.m
 //  rp5_mobile
 //
@@ -9,14 +11,14 @@
 #import <UIKit/UIKit.h>
 
 #import "_rp5AppDelegate.h"
-//#import "_rp5ViewController.h"
-
 
 int main(int argc, char * argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([_rp5AppDelegate class]));
+       // @try{
+            return UIApplicationMain(argc, argv, nil, NSStringFromClass([_rp5AppDelegate class]));
+        //}@catch(NSException *exception) {
+        //    NSLog(@"ERROR!!!");
+        //}
     }
-    //_rp5ViewController *My = [[_rp5ViewController alloc] init];
-    //[My Info];
 }

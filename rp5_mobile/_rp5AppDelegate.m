@@ -7,12 +7,39 @@
 //
 
 #import "_rp5AppDelegate.h"
+//#import "_rp5ViewController.h"
+//#import "Reachability.h"
+
 
 @implementation _rp5AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    // Initialize Reachability
+   /* Reachability *reachability = [Reachability reachabilityWithHostName:@"www.google.ru"];
+    
+    reachability.reachableBlock = ^(Reachability *reachability) {
+        NSLog(@"Network is reachable.");
+    };
+    
+    reachability.unreachableBlock = ^(Reachability *reachability) {
+        NSLog(@"Network is unreachable.");
+    };
+    
+    // Start Monitoring
+    [reachability startNotifier];
+    
+    // Initialize View Controller
+    self.window.rootViewController = [[_rp5ViewController alloc] initWithNibName:@"_rp5ViewController" bundle:nil];
+    
+    // Initialize Window
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    // Configure Window
+    [self.window setRootViewController:self.viewController];
+    [self.window makeKeyAndVisible];*/
+
     return YES;
 }
 							

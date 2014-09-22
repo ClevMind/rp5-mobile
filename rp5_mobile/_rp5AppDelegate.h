@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "_rp5StartController.h"
 
 @interface _rp5AppDelegate : UIResponder <UIApplicationDelegate>
 
